@@ -7,8 +7,8 @@ from bs4 import BeautifulSoup
 
 # --- 配置 ---
 INPUT_FILE = "urls.txt"      # 你刚才保存链接的文件
-OUTPUT_FILE = "huawei_corpus.csv"
-KEYWORD = "Huawei"
+OUTPUT_FILE = "huawei_corpus.csv"#这里更改输出文件名称
+KEYWORD = "Huawei"#这里更改搜索关键词
 
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36'
